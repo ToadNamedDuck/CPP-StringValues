@@ -10,7 +10,7 @@ int main()
 	string input;
 
 	cout << "Enter a string: ";
-	cin >> input;
+	getline(cin, input);
 
 	for(char c : input) {
 		int castLetterToInt = (int)c;
